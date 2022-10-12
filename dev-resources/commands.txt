@@ -1,0 +1,17 @@
+start mongodb server
+
+brew services start mongodb-community@6.0
+
+stop mongodb server
+
+brew services stop mongodb-community@6.0
+
+
+brew services list
+ps aux | grep -v grep | grep mongod
+
+
+
+
+
+=========================================================

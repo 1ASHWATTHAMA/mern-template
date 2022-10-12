@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 const port = process.env.PORT
 
-app.use("/user", userRoutes);
+app.use("/auth", userRoutes);
 
 app.listen(port, ()=>{
     console.log(`started server on port ${port}`)
