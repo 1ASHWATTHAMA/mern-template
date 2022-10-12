@@ -5,8 +5,14 @@ const UserSchema = new mongoose.Schema({
     type: String,
     require: true
   },
-  email: String,
-  password: String,
+  email: {
+    type: String,
+    require: true
+  },
+  hashedPassword: {
+    type: String,
+    require: true
+  },
   role: String
 });
 
